@@ -1,0 +1,87 @@
+.button
+{
+-fx-background-color : #05071F;
+-fx-text-fill : #e7e5e5;
+}
+.button:hover{
+-fx-background-color : #10165F;
+}
+.button:pressed
+{
+-fx-background-color : #1620A1;
+}
+
+.scroll-pane {
+    -fx-background-color: #02030A;
+}
+
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+
+.increment-button, .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #10165F;
+    -fx-background-radius: 5em;
+}
+
+.scroll-pane > .corner {
+    -fx-background-color: black;
+}
+
+.search-box{
+    -fx-background-color:#FFFFFF;
+    -fx-background-radius: 50;
+}
+.page-box{
+    -fx-background-color:#FFFFFF;
+    -fx-border-radius: 0 0 30 30;
+     -fx-background-radius: 0 0 30 30;
+}
+
+.transparent{
+    -fx-background-color: rgba(0,0,0,0);
+}
+
+.search-button{
+    -fx-background-color: #3D56B2;
+    -fx-background-radius: 30;
+}
+
+.chosen-fruit-card{
+    -fx-background-radius: 30;
+}
+
+.shadow{
+    -fx-effect: dropShadow(three-pass-box,rgba(0,0,0,0.1), 10.0 , 0.0 , 0.0 ,10.0);
+}
+
+.homepage{
+    -fx-background-color: linear-gradient(to bottom, #7bc5ae, #64b79d, #4ca88c, #319a7b, #028c6a);;
+}
+/* MAIN COLOUR*/
+.mainFxmlClass {
+      -fx-border-radius: 30 30 30 30;
+      -fx-background-radius: 30 30 30 30;
+     -fx-background-color:  linear-gradient(to bottom, #1597e5, #0087f3, #0074fc, #005dff, #113cfc);
+  }
+.transPane{
+    -fx-background-color: transparent;
+}
+.tab {
+    -fx-focus-color: transparent;
+    -fx-faint-focus-color: transparent;
+}
+

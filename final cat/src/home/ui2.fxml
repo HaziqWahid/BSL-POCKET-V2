@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.media.MediaView?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="576.0" prefWidth="1050.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="home.Controller">
+    <children>
+        <HBox alignment="CENTER" layoutX="212.0" layoutY="417.0" prefHeight="47.0" prefWidth="453.0" stylesheets="@style.css">
+            <children>
+                <TextField fx:id="textSpell" alignment="CENTER" prefHeight="31.0" prefWidth="355.0" promptText="Type here to search" styleClass="transparent" stylesheets="@style.css" />
+                <Button fx:id="btnSubmitSpell" mnemonicParsing="false" onAction="#handleClicks" styleClass="search-button" stylesheets="@style.css" text="Enter" />
+            </children>
+            <styleClass>
+                <String fx:value="search-box" />
+                <String fx:value="tab" />
+            </styleClass>
+        </HBox>
+      <Pane layoutX="959.0" layoutY="103.0" prefHeight="47.0" prefWidth="135.0" rotate="90.0" styleClass="page-box" stylesheets="@style.css">
+         <children>
+            <Label layoutX="36.0" layoutY="10.0" prefHeight="31.0" prefWidth="69.0" text="Spelling">
+               <font>
+                  <Font name="System Bold" size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </Pane>
+      <MediaView fx:id="mediaView" fitHeight="400.0" fitWidth="620.0" layoutX="139.0" layoutY="10.0" />
+      <Text fill="WHITE" layoutX="238.0" layoutY="414.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Not more than 15 words" />
+    </children>
+    <effect>
+        <DropShadow color="#1b1eeb" />
+    </effect>
+    <styleClass>
+        <String fx:value="shadow" />
+        <String fx:value="transPane" />
+    </styleClass>
+</AnchorPane>

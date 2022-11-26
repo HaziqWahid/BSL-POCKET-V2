@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="576.0" prefWidth="986.0" stylesheets="@style.css" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="home.Controller">
+    <children>
+          <Pane fx:id="pnlMembers" prefHeight="576.0" prefWidth="1011.0" stylesheets="@style.css">
+              <children>
+                  <Pane layoutX="-6.0" prefHeight="303.0" prefWidth="419.0" stylesheets="@style.css">
+                      <children>
+                          <Pane layoutX="186.0" layoutY="18.0" prefHeight="200.0" prefWidth="200.0">
+                     <children>
+                                  <Pane layoutX="-82.0" layoutY="-12.0" prefHeight="225.0" prefWidth="282.0" style="-fx-background-color: #14279B;" stylesheets="@style.css">
+                                      <styleClass>
+                                          <String fx:value="chosen-fruit-card" />
+                                          <String fx:value="shadow" />
+                                      </styleClass>
+                           <children>
+                                      <ImageView fitHeight="174.0" fitWidth="124.0" layoutX="14.0" layoutY="19.0" pickOnBounds="true" preserveRatio="true" styleClass="chosen-fruit-card">
+                                          <image>
+                                              <Image url="@../images/WhatsApp%20Image%202022-01-25%20at%2017.01.02.jpeg" />
+                                          </image>
+                              </ImageView>
+                                      <Text fill="WHITE" layoutX="173.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MUHAMMAD RIDHWAN BIN MAHDI" wrappingWidth="94.05600929260254">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font></Text>
+                              <Text fill="WHITE" layoutX="173.0" layoutY="106.0" strokeType="OUTSIDE" strokeWidth="0.0" text="152894" wrappingWidth="94.05600929260254">
+                                 <font>
+                                    <Font name="System Bold" size="12.0" />
+                                 </font></Text>
+                           </children>
+                        </Pane>
+                     </children>
+                          </Pane>
+                      </children>
+                  </Pane>
+                  <Pane layoutX="424.0" layoutY="-8.0" prefHeight="287.0" prefWidth="428.0">
+               <children>
+                  <Pane layoutX="47.0" layoutY="14.0" prefHeight="235.0" prefWidth="293.0" style="-fx-background-color: #14279B;" stylesheets="@style.css">
+                     <styleClass>
+                        <String fx:value="chosen-fruit-card" />
+                        <String fx:value="shadow" />
+                     </styleClass>
+                     <children>
+                        <ImageView fitHeight="171.0" fitWidth="132.0" layoutX="14.0" layoutY="22.0" pickOnBounds="true" preserveRatio="true" styleClass="chosen-fruit-card">
+                           <image>
+                              <Image url="@../images/WhatsApp%20Image%202022-01-25%20at%2017.12.45.jpeg" />
+                           </image>
+                        </ImageView>
+                        <Text fill="WHITE" layoutX="157.0" layoutY="35.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MUHAMMAD IQBAL ADAM BIN MOHAMAD SAUPI" wrappingWidth="113.80340576171875">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font></Text>
+                        <Text fill="WHITE" layoutX="157.0" layoutY="105.0" strokeType="OUTSIDE" strokeWidth="0.0" text="150632" wrappingWidth="113.80340576171875">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font></Text>
+                     </children>
+                  </Pane>
+               </children>
+                  </Pane>
+                  <Pane layoutX="-1.0" layoutY="324.0" prefHeight="261.0" prefWidth="419.0">
+                      <children>
+                  <Pane layoutX="94.0" layoutY="-60.0" prefHeight="235.0" prefWidth="282.0" style="-fx-background-color: #14279B;" stylesheets="@style.css">
+                     <styleClass>
+                        <String fx:value="chosen-fruit-card" />
+                        <String fx:value="shadow" />
+                     </styleClass>
+                     <children>
+                        <ImageView fitHeight="168.0" fitWidth="133.0" layoutX="14.0" layoutY="29.0" pickOnBounds="true" preserveRatio="true" styleClass="chosen-fruit-card">
+                           <image>
+                              <Image url="@../images/WhatsApp%20Image%202022-01-25%20at%2022.40.23.jpeg" />
+                           </image>
+                        </ImageView>
+                        <Text fill="WHITE" layoutX="173.0" layoutY="42.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MUHAMMAD HAZIQ BIN MOHAMAD WAHID" wrappingWidth="94.05600929260243">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font></Text>
+                        <Text fill="WHITE" layoutX="173.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="154142" wrappingWidth="94.05600929260243">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font></Text>
+                     </children>
+                  </Pane>
+                      </children>
+                  </Pane>
+                  <Pane layoutX="431.0" layoutY="320.0" prefHeight="261.0" prefWidth="425.0">
+               <children>
+                  <Pane layoutX="35.0" layoutY="-56.0" prefHeight="235.0" prefWidth="293.0" style="-fx-background-color: #14279B;" stylesheets="@style.css">
+                     <styleClass>
+                        <String fx:value="chosen-fruit-card" />
+                        <String fx:value="shadow" />
+                     </styleClass>
+                     <children>
+                        <ImageView fitHeight="171.0" fitWidth="124.0" layoutX="25.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true" styleClass="chosen-fruit-card">
+                           <image>
+                              <Image url="@../images/WhatsApp%20Image%202022-01-25%20at%2017.21.05%20(2).jpeg" />
+                           </image>
+                        </ImageView>
+                        <Text fill="WHITE" layoutX="172.0" layoutY="46.0" strokeType="OUTSIDE" strokeWidth="0.0" text="MUHAMMAD AIZUDDIN BIN ABDUL RAHIM" wrappingWidth="94.05600929260254">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font></Text>
+                        <Text fill="WHITE" layoutX="172.0" layoutY="122.0" strokeType="OUTSIDE" strokeWidth="0.0" text="154282" wrappingWidth="94.05600929260254">
+                           <font>
+                              <Font name="System Bold" size="12.0" />
+                           </font></Text>
+                     </children>
+                  </Pane>
+               </children>
+                  </Pane>
+              </children>
+         <styleClass>
+            <String fx:value="shadow" />
+            <String fx:value="transparent" />
+         </styleClass>
+      </Pane>
+    </children>
+    <effect>
+        <DropShadow color="#1b1eeb" />
+    </effect>
+   <styleClass>
+      <String fx:value="shadow" />
+      <String fx:value="transparent" />
+   </styleClass>
+</AnchorPane>
